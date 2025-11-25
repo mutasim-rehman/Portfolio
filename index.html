@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mutasim ur Rehman | The Grand Bistro</title>
+    <link rel="icon" href="./components/media/m1-removebg-preview.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'hotel-pink': '#F7CAC9',
+              'hotel-pink-dark': '#E0A8A7',
+              'hotel-blue': '#92A8D1',
+              'hotel-blue-dark': '#788CB3',
+              'hotel-red': '#9B2335',
+              'hotel-purple': '#6B5B95',
+              'hotel-cream': '#FDF4DC',
+              'hotel-gold': '#C5A059',
+              'hotel-dark': '#2C2C2C',
+              'hotel-green': '#88B04B',
+            },
+            fontFamily: {
+              'cinematic': ['"Cinzel"', 'serif'],
+              'serif': ['"Playfair Display"', 'serif'],
+              'garamond': ['"Cormorant Garamond"', 'serif'],
+              'sans': ['"Lato"', 'sans-serif'],
+            },
+            backgroundImage: {
+              'noise': "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAAGFBMVEUAAAA5OTkAAABMTExERERmZmYzMzMyMjIxMTE3AAAAB3RSTlMABDQ9P0NUUvtF1wAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfmBQUKOhw0wE6FAAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUHaKmCkAAABMSURBVDjLY2AYBaNg2AJGJiZmCM3MzIymGYQZGRkZmWYQZ2JkZGSaATQzhJmZmZlhmkGamJgZpplgNMOwiYmJaZppBmam//+A4SkjMQAArx8Fw27+ol8AAAAASUVORK5CYII=')",
+              'striped': "repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(197, 160, 89, 0.1) 10px, rgba(197, 160, 89, 0.1) 20px)",
+            },
+            boxShadow: {
+              'retro': '10px 10px 0px 0px rgba(0,0,0,0.2)',
+              'retro-sm': '4px 4px 0px 0px rgba(0,0,0,0.1)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        background-color: #FDF4DC;
+        overflow-x: hidden;
+        cursor: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="6" fill="%239B2335" stroke="white" stroke-width="2"/></svg>') 12 12, auto;
+      }
+      
+      /* Smooth scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #FDF4DC;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #C5A059;
+        border-radius: 6px;
+        border: 3px solid #FDF4DC;
+      }
+
+      .font-feature-settings {
+        font-feature-settings: "smcp", "c2sc";
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
